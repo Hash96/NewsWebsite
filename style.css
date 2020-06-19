@@ -1,0 +1,137 @@
+*{margin: 0; padding: 0;}
+
+a{text-decoration:none; }
+
+p{margin-top: 10px; margin-bottom: 15px; font-size: 18px; color: #444;}
+.clearfix{overflow: auto }
+
+.wrapper{
+	margin: 0 auto;
+	width: 1500px;
+}
+
+.top-bar{
+	width: 1500px;
+	background: black;
+}
+.top-bar-links{
+	float: left;
+}
+.top-bar-links ul{
+	margin: 15px;
+	list-style: none;
+}
+.top-bar-links ul li{
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+
+.top-bar-links ul li:last-child {
+	border:none;
+}
+
+.top-bar-links ul li a{
+	color: white;
+}
+
+.site-search{
+	padding: 3px 5px 3px 10px;
+	margin: 15px;
+	float: right;
+	background: white;
+	float: right;
+	border-radius: 10px;
+}
+.site-search input{
+	border: 0;
+	float: left; 
+}
+.site-search button{
+	width: 20px;
+	height: 20px;
+	background: url(../)
+	border:none;
+	float: right;
+} 
+header .logo {
+	margin-top: 30px;
+	margin-left: 20px;
+	float: left;
+}
+
+
+header .logo h1{
+	font-variant: small-caps;
+	font-size: 48px;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+header .socialmedia ul li{ display: inline; margin-top: 30px }
+
+header .socialmedia ul {list-style: none;}
+
+header .socialmedia {float: right; margin-top: 50px; margin-right: 20px; }
+
+header .socialmedia ul li a{
+	margin-left: 5px;
+	padding: 6px;
+	background: #444;
+	color: #ffffff;
+	display: inline-block;
+	border-radius: 20px;
+}
+header .socialmedia ul li a:hover{
+	background: black;  
+}
+nav{
+	background: black;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+nav ul li{
+	display: inline;
+
+}
+nav ul li a{
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 10px 100px 10px 100px;
+	display: inline-block; 
+}
+nav ul li a:hover{
+	color: purple;
+}
+div.intro{
+	width: 1500px;
+	margin: 5px;
+}
+div.intro div introimage{
+	
+	float: left;
+}
+div.introtext{
+	width: 570px;
+	float: right;
+}
+div.introtext h1{
+	font-weight: normal;
+	font-size: 48px;
+	text-transform: uppercase;
+	float: right;
+}
+div.homecontent{
+	width: 1500px;
+	background: #eee;
+}
+div.home-col{
+	width: 600px;
+	float: left;
+}
+div.home-col h2{
+	margin: 30px 0px 30px 0px;
+	font-size: 30px;
+	font-weight: normal;
+}
+
